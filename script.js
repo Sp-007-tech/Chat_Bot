@@ -14,7 +14,9 @@ document.getElementById("chatLogger").innerHTML = user + "<br>";
 if(user in know){
     document.getElementById("chatLogger").innerHTML = know[user] + "<br>";
 }
+    
 else{
     document.getElementById("chatLogger").innerHTML = "Sorry,😥 I can't understand <br>";
-}
+    
+    }
 }

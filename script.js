@@ -1,10 +1,10 @@
 function talk(){
 
     var know ={
-        "Who are you" : "Hello, This is SP",
-        "How are you" : "I am Fine,...!!",
-        "What it is about" : "It's about the Front-end Development",
-        "ok Thank You" : "Welcome !!"
+        "who are you" : "Hello, This is SP",
+        "how are you" : "I am Fine, what about you?",
+        "what it is about" : "It's about the Front-end Development",
+        "ok thank you" : "Welcome !!"
     };
 
 var user = document.getElementById("userChat").value;
